@@ -1,0 +1,30 @@
+This is a demonstration for controlling an NXT robot from an iPhone.
+
+Technologies used are:
+- Bluetooth
+- Tethering
+- Open Sound Control
+- Lego Mindstorms NXT
+- C#
+
+Libs used are:
+- For OSC, Ventuz.OSC
+http://opensoundcontrol.org/implementation/osc-net-v1-2
+Easier OscElement access than Bespoke.Net
+
+- For bluetooth stack, InTheHand.Net
+http://inthehand.com/content/
+I used this because the other NXT libs for .Net (like MindSqualls.Net) needs me to guess the COM Port that the BT is connected too.
+
+- For the iPhone app, TouchOSC
+http://hexler.net/
+I chose this because it has an interface editor and you can name your controls, in turn it can be used as the OSC message addresses on the C# application. The messages sent worked seamlessly with Ventuz.OSC too.
+Though the app costs $4.99, it is worth it due to ease of use and integration.
+
+- For the NXT code, just the plain old NXT-G with the help of the text-to-number block from:
+https://sites.google.com/site/mbbackus/robotics/segway
+
+The approach to control the NXT using the iPhone is:
+iPhone --> Desktop --> NXT
+This is what we call Tethering but in the context of our demo, the NXT is "tethered" to the Desktop to receive the commands from the network. It can be any network initiated command and the C# program can handle it. In our case, the iPhone is the one sending the commands to the network.
+
