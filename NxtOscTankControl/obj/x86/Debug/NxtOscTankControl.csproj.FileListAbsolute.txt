@@ -1,0 +1,9 @@
+C:\Projects\NxtOscTankControl\NxtOscTankControl\bin\Debug\NxtOscTankControl.exe.config
+C:\Projects\NxtOscTankControl\NxtOscTankControl\bin\Debug\NxtOscTankControl.exe
+C:\Projects\NxtOscTankControl\NxtOscTankControl\bin\Debug\NxtOscTankControl.pdb
+C:\Projects\NxtOscTankControl\NxtOscTankControl\bin\Debug\InTheHand.Net.Personal.dll
+C:\Projects\NxtOscTankControl\NxtOscTankControl\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\NxtOscTankControl\NxtOscTankControl\obj\x86\Debug\NxtOscTankControl.exe
+C:\Projects\NxtOscTankControl\NxtOscTankControl\obj\x86\Debug\NxtOscTankControl.pdb
+C:\Projects\NxtOscTankControl\NxtOscTankControl\bin\Debug\Ventuz.OSC.dll
+C:\Projects\NxtOscTankControl\NxtOscTankControl\bin\Debug\Ventuz.OSC.xml
