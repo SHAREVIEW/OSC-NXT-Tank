@@ -28,3 +28,5 @@ The approach to control the NXT using the iPhone is:
 iPhone --> Desktop --> NXT
 This is what we call Tethering but in the context of our demo, the NXT is "tethered" to the Desktop to receive the commands from the network. It can be any network initiated command and the C# program can handle it. In our case, the iPhone is the one sending the commands to the network.
 
+It can be made with the other languages but I chose C# for it due to that we can integrate lots of stuff easily with .Net. I tried it with Processing  but I had issues with bluetooth (bluecove).
+
